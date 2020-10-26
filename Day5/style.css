@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cha {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.menu {
+    width: 100%;
+    display: flex;
+    background-color: white;
+    box-shadow: 0 5px 10px rgb(143, 143, 143);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.menu-main {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 10px;
+    
+}
+.menu-main > li {
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+.menu-main > li:hover {
+    background-color: aqua;
+}
+.fab {
+    font-size: 25px;
+    margin-right: 5px;
+}
+.fa {
+    margin-right: 5px;
+}
+.anh {
+    width: 100%;
+    background-attachment: fixed;
+}
+.avt-1 {
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+.box {
+    width: 70%;
+    background-color: white;
+    margin: auto;
+}
+
+
+
+.content {
+    width: 70%;
+    margin: auto;
+}
+.content > hr {
+    margin: 50px;
+    color: black;
+    margin: 100px 0 100px 50px;
+    width: 90%;
+}
+.content > .box {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.content > .box > .box-img{
+    width: 45%;
+}
+.content > .box > .box-img img{
+    width: 100%;
+    border-radius: 30px;
+}
+.content > .box > .box-text{
+    width: 45%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer {
+    padding: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.yellow{
+    color: yellow;
+}
+.end {
+    font-size: 30px;
+    margin: auto;
+}
+
+.anh{
+    height: 450px;
+    width: 100%;
+    background-image: url(https://thuthuatnhanh.com/wp-content/uploads/2018/09/hinh-nen-thu-do-Paris-nuoc-Phap-ruc-ro-ve-dem.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
